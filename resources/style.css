@@ -1,0 +1,82 @@
+#welcome{
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+
+.loginbutton,.cartbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none; /*прибирає підкреслювання*/
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.loginbutton:hover,.cartbutton:hover {
+    background-color: #0056b3;
+}
+
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: linear-gradient(to bottom, #e0e0e0, #ffffff);
+        background-image: url('background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        color: #333;
+
+    }
+
+
+
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 4fr));
+    gap: 20px; 
+    padding: 20px;
+    justify-content: center; 
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.product-card .price {
+    font-size: 20px;
+    color: #007BFF;
+    margin: 10px 0;
+}
+
+.product-card button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-card button:hover {
+    background: #0056b3;
+}

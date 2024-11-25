@@ -1,0 +1,26 @@
+[
+    {
+        "cpu": "Intel Core i5-12400",
+        "gpu": "NVIDIA GeForce RTX 3060",
+        "ram": "32GB DDR4",
+        "price": 1200
+    },
+    {
+        "cpu": "AMD Ryzen 5 5600X",
+        "gpu": "AMD Radeon RX 6700 XT",
+        "ram": "16GB DDR4",
+        "price": 1400
+    },
+     {
+        "cpu": "Intel Core i3-12100F",
+        "gpu": "NVIDIA GeForce RTX 3050",
+        "ram": "16GB DDR5",
+        "price": 1200
+    },
+     {
+        "cpu": "Intel Core i7-13700F",
+        "gpu": "NVIDIA GeForce RTX 2080",
+        "ram": "16GB DDR5",
+        "price": 1200
+    }
+]
